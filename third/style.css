@@ -1,0 +1,64 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	height: 8%;
+	background-color: #333333;
+	color: white;
+}
+
+header p {
+	display: inline;
+	float: left;
+	margin-left: 4%;
+	font-size: 15px;
+}
+
+.wrapper {
+	/*width: 100%;
+	height: 100%;*/
+	display: flex;
+	padding-top: 3%;
+
+}
+
+h1 {
+	margin-left: 10%;
+}
+
+.right {
+	flex-direction: row;
+	height: 100%
+}
+
+.left {
+	flex-direction: row;
+	margin-right: 3%;
+	height: 100%;
+}
+
+li {
+	list-style: none;
+}
+
+p {
+	font-size: 10px;
+}
+
+#box {
+	width: 401px;
+	height: 250px;
+	background-color: grey;
+	margin-left: 9%;
+}
+
+footer {
+	width: 100%;
+	height: 40px;
+	background-color: #333333;
+	color: white;
+}
